@@ -27,7 +27,8 @@ print('')
 print('clustering result:')
 for label in C:
     for point_idx in C[label]:
-        print('label {0}:　{1}'.format(label, data[point_idx]))
+        print(f'label {label}: {data[point_idx]}') # for python 3.6 and above
+
 ```
 
 Output:
